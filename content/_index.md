@@ -2,7 +2,7 @@
 title: "Team Z6"
 ---
 
-<h1 id="team-z6" class="team-title"><img src="/images/logo.png" alt="Team Z6 logo" class="team-logo"> Team Z6</h1>
+<h1 id="team-z6" class="team-title"><img src="/images/logo.png" alt="Team Z6 logo" class="team-logo"> Team Z6 {{< social >}}</h1>
 
 We are **Z6**, a research team focused on **efficient, on-device computer vision** — real-time super-resolution, video frame interpolation, image/video restoration, and on-device LLM deployment. The team originated at **KETI (Korea Electronics Technology Institute)** and continues to collaborate today.
 
@@ -18,7 +18,7 @@ We have a track record of top finishes at major mobile/efficient-vision challeng
   name="Kihwan Yoon"
   role="AI Researcher"
   affiliation="BLUEDOT"
-  interests="Real-Time SR, VFI, On-device LLM, Stereoscopic Imaging"
+  interests="Real-Time SR, VFI, On-device AI, Stereoscopic Conversion"
   image="/images/members/kihwan.jpg"
   homepage="https://rlghksdbs.github.io/"
   scholar="https://scholar.google.com/citations?user=LLLbCIQAAAAJ&hl=en"
@@ -28,17 +28,15 @@ We have a track record of top finishes at major mobile/efficient-vision challeng
 
 {{< member
   name="Ganzorig Gankhuyag"
-  role="Researcher"
+  role="AI Researcher"
   affiliation="KETI"
-  interests="Super-Resolution, Image Processing, Video Compression, AI/DL"
+  interests="SReal-Time SR, On-device AI, Video Compression"
   image="/images/members/ganzorig.jpg"
   scholar="https://scholar.google.com/citations?user=PR4pvCMAAAAJ&hl=en"
   linkedin="https://www.linkedin.com/in/ganzorig-gankhuyag-4861b6b4/"
 >}}
 
 </div>
-
-{{< social >}}
 
 ---
 
