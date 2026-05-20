@@ -1,0 +1,22 @@
+{{- $image := .Get "image" -}}
+<div class="member-card">
+  <div class="member-photo">
+    {{ if $image }}
+      <img src="{{ $image | relURL }}" alt="{{ .Get "name" }}">
+    {{ else }}
+      <div class="member-photo-placeholder">No photo</div>
+    {{ end }}
+  </div>
+  <div class="member-info">
+    <div class="member-name">{{ .Get "name" }}</div>
+    {{ with .Get "role" }}<div class="member-role">{{ . }}{{ with $.Get "affiliation" }} &middot; {{ . }}{{ end }}</div>{{ end }}
+    {{ with .Get "interests" }}<div class="member-interests">{{ . }}</div>{{ end }}
+    <div class="member-links">
+      {{ with .Get "homepage" }}<a href="{{ . }}" target="_blank" rel="noopener">&#127760; Homepage</a>{{ end }}
+      {{ with .Get "scholar" }}<a href="{{ . }}" target="_blank" rel="noopener">Scholar</a>{{ end }}
+      {{ with .Get "github" }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+      {{ with .Get "linkedin" }}<a href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
+      {{ with .Get "email" }}<a href="mailto:{{ . }}">Email</a>{{ end }}
+    </div>
+  </div>
+</div>
