@@ -2,7 +2,7 @@
 title: "Team Z6"
 ---
 
-# Team Z6
+<h1 id="team-z6" class="team-title"><img src="/images/logo.png" alt="Team Z6 logo" class="team-logo"> Team Z6</h1>
 
 We are **Z6**, a research team focused on **efficient, on-device computer vision** — real-time super-resolution, video frame interpolation, image/video restoration, and on-device LLM deployment. The team originated at **KETI (Korea Electronics Technology Institute)** and continues to collaborate today.
 
@@ -37,6 +37,18 @@ We have a track record of top finishes at major mobile/efficient-vision challeng
 >}}
 
 </div>
+
+{{< social >}}
+
+---
+
+## News
+
+- **Oct 2025** — **RCENet** presented at **ICCVW 2025** &nbsp;🥈 *2nd Place, MAI 2025 Challenge*
+- **Oct 2025** — **LiteRT-Optimized INT8 LLM** for Raspberry Pi4 deployment presented at **ICCVW 2025**
+- **Jun 2024** — **CASR** presented at **CVPRW 2024** &nbsp;🏆 *1st Place, AIS 2024 Challenge*
+- **Jun 2023** — **LRSRN** presented at **CVPRW 2023** (NTIRE 2023)
+- **Oct 2022** — **SCSRN** &nbsp;🏆 *1st Place, AIM 2022 Challenge (ECCVW 2022)*
 
 ---
 

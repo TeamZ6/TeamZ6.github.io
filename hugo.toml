@@ -15,6 +15,11 @@ paginate = 5
   ShowPostNavLinks = false
   hideMeta = true
 
+  [params.label]
+    text = "Team Z6"
+    icon = "/images/logo.png"
+    iconHeight = 32
+
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/TeamZ6"

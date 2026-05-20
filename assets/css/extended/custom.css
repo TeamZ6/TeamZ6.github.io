@@ -2,6 +2,19 @@
   --main-width: 1080px;
 }
 
+.team-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.team-logo {
+  height: 1.2em;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .member-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
