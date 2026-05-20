@@ -30,7 +30,7 @@ We have a track record of top finishes at major mobile/efficient-vision challeng
   name="Ganzorig Gankhuyag"
   role="AI Researcher"
   affiliation="KETI"
-  interests="SReal-Time SR, On-device AI, Video Compression"
+  interests="Real-Time SR, On-device AI, Video Compression"
   image="/images/members/ganzorig.jpg"
   scholar="https://scholar.google.com/citations?user=PR4pvCMAAAAJ&hl=en"
   linkedin="https://www.linkedin.com/in/ganzorig-gankhuyag-4861b6b4/"
