@@ -12,11 +12,31 @@
     {{ with .Get "role" }}<div class="member-role">{{ . }}{{ with $.Get "affiliation" }} &middot; {{ . }}{{ end }}</div>{{ end }}
     {{ with .Get "interests" }}<div class="member-interests">{{ . }}</div>{{ end }}
     <div class="member-links">
-      {{ with .Get "homepage" }}<a href="{{ . }}" target="_blank" rel="noopener">&#127760; Homepage</a>{{ end }}
-      {{ with .Get "scholar" }}<a href="{{ . }}" target="_blank" rel="noopener">Scholar</a>{{ end }}
-      {{ with .Get "github" }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
-      {{ with .Get "linkedin" }}<a href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
-      {{ with .Get "email" }}<a href="mailto:{{ . }}">Email</a>{{ end }}
+      {{ with .Get "homepage" }}
+        <a href="{{ . }}" target="_blank" rel="noopener" title="Homepage" aria-label="Homepage">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </a>
+      {{ end }}
+      {{ with .Get "scholar" }}
+        <a href="{{ . }}" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+          {{ partial "svg.html" (dict "name" "googlescholar") }}
+        </a>
+      {{ end }}
+      {{ with .Get "github" }}
+        <a href="{{ . }}" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+          {{ partial "svg.html" (dict "name" "github") }}
+        </a>
+      {{ end }}
+      {{ with .Get "linkedin" }}
+        <a href="{{ . }}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+          {{ partial "svg.html" (dict "name" "linkedin") }}
+        </a>
+      {{ end }}
+      {{ with .Get "email" }}
+        <a href="mailto:{{ . }}" title="Email" aria-label="Email">
+          {{ partial "svg.html" (dict "name" "email") }}
+        </a>
+      {{ end }}
     </div>
   </div>
 </div>
