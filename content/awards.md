@@ -8,7 +8,9 @@ url: "/awards/"
 - 🏆 **1st Place** — AIS 2024 Challenge: Real-Time 4K Super-Resolution of Compressed AVIF Images, *CVPRW 2024*
 - 🏆 **1st Place** — AIM 2022 Challenge: Efficient and Accurate Quantized Image Super-Resolution on Mobile NPUs, *ECCVW 2022*
 - 🥈 **2nd Place** — Mobile AI (MAI) 2025 Challenge: Quantized Image Super-Resolution on Mobile NPUs, *CVPRW 2025*
-
+- 🥈 **2nd Place** — Mobile AI (MAI) 2026 Challenge: 4K Quantized Image Super-Resolution on Mobile NPUs, *CVPRW 2026*
+- 🏅 **4th Place** — Mobile AI (MAI) 2026 Challenge: Image Denoising Challenge, *CVPRW 2026*
+- 🏅 **4th Place** — 2026 IEEE Low Power Computer Vision Challenge: Action Recognition in Video, *CVPRW 2026*
 ---
 
 ## Challenge Diploma
